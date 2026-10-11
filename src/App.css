@@ -1,0 +1,17 @@
+.App {
+  font-family: 'Karla', sans-serif;
+}
+
+.App-header {
+  background-color: #495E57;
+  color: #F4CE14;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 标准5：响应式布局 */
+@media (max-width: 600px) {
+  form {
+    grid-template-columns: 1fr; /* 移动端单列 */
+  }
+}
